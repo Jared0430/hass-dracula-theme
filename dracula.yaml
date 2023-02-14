@@ -1,0 +1,118 @@
+# Dracula theme for Home Assistant
+# Creator: Jared0430
+# Website: https://github.com/Jared0430
+
+dracula:
+  # Dracula color palette
+  dracula-background:	"#282a36"
+  dracula-current-line:	"#44475a"
+  dracula-foreground:	"#f8f8f2"
+  dracula-comment:	"#6272a4"
+  dracula-cyan:	"#8be9fd"
+  dracula-green:	"#50fa7b"
+  dracula-orange:	"#ffb86c"
+  dracula-pink:	"#ff79c6"
+  dracula-purple:	"#bd93f9"
+  dracula-red:	"#ff5555"
+  dracula-yellow:	"#f1fa8c"
+
+  # Header:
+  app-header-background-color: var(--dracula-current-line)
+  app-header-text-color: var(--dracula-foreground)
+
+  # Main Interface Colors
+  primary-color: var(--dracula-purple)
+  light-primary-color: var(--primary-color)
+  primary-background-color: var(--dracula-background)
+  secondary-background-color: var(--dracula-current-line)
+  divider-color: var(--primary-background-color)
+  accent-color: var(--dracula-purple)
+
+  # Text
+  primary-text-color: var(--dracula-foreground)
+  secondary-text-color: var(--dracula-comment)
+  text-primary-color: var(--primary-text-color)
+  disabled-text-color: rgba(248, 248, 242, 0.4)
+
+  # Sidebar Menu
+  sidebar-icon-color: var(--dracula-purple)
+  sidebar-text-color: var(--dracula-foreground)
+  sidebar-background-color: var(--dracula-current-line)
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: var(--dracula-purple)
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+
+  # Buttons
+  paper-item-icon-color: var(--dracula-purple)
+  paper-item-icon-active-color: var(--dracula-purple)
+
+  # States and Badges
+  state-icon-color: var(--dracula-purple)
+  state-icon-active-color: var(--dracula-purple)
+  state-icon-unavailable-color: var(--disabled-text-color)
+
+  # Sliders
+  paper-slider-knob-color: var(--dracula-purple)
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+
+  # Labels
+  label-badge-background-color: var(--dracula-current-line)
+  label-badge-text-color: var(--dracula-foreground)
+  label-badge-red: var(--dracula-red)
+  label-badge-green: var(--dracula-green)
+  label-badge-blue: var(--dracula-purple)
+  label-badge-yellow: var(--dracula-yellow)
+  label-badge-gray: var(--dracula-comment)
+
+  # Cards
+  card-background-color: var(--dracula-current-line)
+  ha-card-border-radius: "4px"
+  ha-card-box-shadow: 1px 1px 5px 0px var(--dracula-background)
+  paper-dialog-background-color: var(--card-background-color)
+  paper-listbox-background-color: var(--card-background-color)
+  paper-card-background-color: var(--card-background-color)
+
+  # Switches
+  switch-checked-button-color: var(--dracula-purple)
+  switch-checked-track-color: var(--dracula-purple)
+  switch-unchecked-button-color: var(--dracula-foreground)
+  switch-unchecked-track-color: var(--dracula-foreground)
+
+  # Toggles
+  paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+  paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+  paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+  paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+
+  # Table
+  table-row-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  data-table-background-color: var(--primary-background-color)
+  mdc-checkbox-unchecked-color: var(--dracula-purple)
+
+  # Dropdowns
+  material-background-color: var(--secondary-background-color)
+  material-secondary-background-color: var(--primary-background-color)
+  mdc-theme-surface: var(--primary-background-color)
+
+  # Pre/Code
+  markdown-code-background-color: var(--dracula-background)
+
+  # Checkboxes
+  mdc-select-fill-color: var(--dracula-current-line)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--secondary-text-color)
+  mdc-select-idle-line-color: var(--primary-text-color)
+  mdc-select-dropdown-icon-color: var(--secondary-text-color)
+  mdc-select-hover-line-color: var(--accent-color)
+
+  # Input
+  input-fill-color: var(--secondary-background-color)
+  input-dropdown-icon-color: var(--secondary-text-color)
+  input-ink-color: var(--primary-text-color)
+  input-label-ink-color: var(--secondary-text-color)
+  input-idle-line-color: var(--primary-text-color)
+  input-hover-line-color: var(--accent-color)
